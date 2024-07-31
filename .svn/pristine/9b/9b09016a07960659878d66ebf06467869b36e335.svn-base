@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/bootsrap/bootstrap.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="">
+        <nav>
+            <div class="back-btn">
+                <span> <i class="ph ph-arrow-left"></i></span>              
+            </div>
+            <div class="logo">
+                <img src="asset/CSBBANK.NS_BIG-25254ded 1.png" alt="">
+            </div>         
+        </nav>
+        <div class="content">
+            <p>Welcom To SpotOn 2.0</p>
+        </div>
+        <div class="main-content">
+          <div class="signInWith">
+            <h4>Login with mobile number</h4>
+            <h5>RM ID</h5>
+          </div>
+          <div class="phone-input">
+            <span class="country-code">+91</span>
+            <input type="number" placeholder="Enter mobile number" class="phone-number">
+        </div>       
+       <div class="buttons">
+        <div class="btns">
+            <button class="otp-btn" role="button">Send OTP</button>
+        </div>
+        <div class="login-button">
+            <button>Login</button>
+        </div>
+        <div class="login-button face-btn">
+         <img src="asset/faceid.png" alt="">
+         <span>Login With Face ID</span>
+        </div>
+       </div>
+       <div class="createAccount">
+         <a href="">Create an account?</a>
+       </div>
+       <div class="policy-section">
+         <span><i class="ph ph-lock-key-open"></i></span>
+         <span class="secure-login">Secure Login - Privacy Policy</span>
+       </div>
+        </div>                 
+    </div>
+</body>
+
+</html>

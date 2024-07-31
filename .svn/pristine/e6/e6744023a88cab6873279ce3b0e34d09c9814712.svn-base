@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/hello-icon-152.png">
+    <meta name="theme-color" content="blue" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Hello World">
+    <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+</head>
+
+<body>
+    <div>
+        <img src="" alt="">
+    </div>
+    <div class="log">
+        <span class="box">
+            <h2>Login with Mobile</h2>
+        </span>
+        <span class="box">
+            <h2>Login with RM ID</h2>
+        </span>
+    </div>
+    <div class="log">
+        <div class="login-container">
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="phone">+91</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <button type="submit">Proceed</button>
+                <p id="error-message" class="error-message"></p>
+            </form>
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
