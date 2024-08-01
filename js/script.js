@@ -81,7 +81,7 @@ if (inputField) {
 
         if (optValue == 123456) {
             // alert("Otp verified");
-            window.location.href= "Page3.html"
+            window.location.href= "page3.html"
         }
         else {
             alert("Wrong otp");
