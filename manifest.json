@@ -1,7 +1,7 @@
 
 {
-    "name": "PWA Application",
-    "short_name": "PWA",
+    "name": "CSB Application",
+    "short_name": "CSB",
     "icons": [{
     "src": "images/hello-icon-128.png",
       "sizes": "128x128",
